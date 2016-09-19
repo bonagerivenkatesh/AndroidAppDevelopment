@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context="com.example.libraryguest2.hw2.EditExpense">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selectexpense"
+        android:layout_gravity="center"
+        android:id="@+id/editbtnselectexpense" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expensename"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittvexpensename" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editetexpensename"
+        android:maxLength="50"
+        android:text="@string/nullvalue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittvcategory" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editspinnercategory"
+        android:spinnerMode="dialog"
+        android:prompt="@string/selectcategory"
+        android:entries="@array/Categories"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amount"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edittvamount" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editetamount"
+        android:text="@string/nullvalue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittvdate" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:layout_weight="3"
+            android:ems="10"
+            android:layout_marginTop="5dp"
+            android:id="@+id/editetdate"
+            android:text="@string/nullvalue" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/calendar"
+            android:id="@+id/editivcalendar" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/receipt"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edittvreceipt" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/editivreceipt" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/savebutton"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:id="@+id/editbtnsave" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:layout_marginTop="15dp"
+            android:id="@+id/editbtncancel" />
+    </TableRow>
+
+</LinearLayout>

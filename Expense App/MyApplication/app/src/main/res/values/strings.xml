@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Expense App</string>
+    <string name="addexpense">Add Expense</string>
+    <string name="editexpense">Edit Expense</string>
+    <string name="deleteexpense">Delete Expense</string>
+    <string name="showexpenses">Show Expenses</string>
+    <string name="finish">Finish</string>
+    <string name="labeladdexpense">Add An Expense</string>
+    <string name="expensename">Expense Name</string>
+    <string name="category">Category</string>
+    <string name="nullvalue" />
+    <string name="amount">Amount  </string>
+    <string name="date">Date    </string>
+    <string name="receipt">Receipt</string>
+    <string name="selectcategory">Select Category</string>
+    <string name="selectexpense">Select Expense</string>
+    <string name="savebutton">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="deletebutton">Delete</string>
+    <string name="expensedetails">Expense Details</string>
+    <string name="name">Name    </string>
+    <string-array name="Categories">
+        <item>Select Category</item>
+        <item>Groceries</item>
+        <item>Invoice</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Rent</item>
+        <item>Trips</item>
+        <item>Utilities</item>
+        <item>Other</item>
+
+
+    </string-array>
+</resources>
