@@ -1,7 +1,4 @@
-//Group number: 23 (HomeWork1)
-//Names: Venkatesh Bonageri (800964302)
-//        Vikas Deshpande (800964852)
-
+//Name: Venkatesh Bonageri
 package com.example.venkatesh.baccalculator;
 import android.graphics.Color;
 import android.support.v7.app.ActionBar;
