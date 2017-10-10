@@ -1,0 +1,16 @@
+1) Login and Signup Feature:
+	a) The app should enable users to login using a username/password.
+	b) In addition, the app should enable users to login using their Facebook and Google credentials.
+
+2) Profile Feature:
+	a) Each user profile should contain the user first name, last name, gender and profile avatar or photo.
+	b) User should be able to edit and update all their profile content including the photo/avatar.
+	c) User listing should be provided to enable users to discover and view profiles and albums of other users.
+
+3) Messaging feature:
+	a) Users should be able to send messages to any user in the system
+	b) The message should be able to contain, message text and message photo if required.
+	c) Each user should have their own inbox and should not be able to access other user's inbox.
+	d) User should be able to reply to received message.
+	e) Users should be able delete a received message.
+	f) The Inbox UI should easily and clearly distinguish between new and read messages. Also from the UI the user 	   should be able to identify who is the sender and the time it was sent.
